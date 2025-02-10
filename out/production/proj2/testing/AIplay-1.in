@@ -1,0 +1,9 @@
+#* java -ea jump61.Main
+# AI playing
+size 6
+manual blue
+6 6
+dump
+auto r
+auto b
+quit
