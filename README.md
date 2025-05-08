@@ -17,10 +17,6 @@ refers to the square at row r and column c, where 1≤r,c≤N
 The neighbors of a square are the horizontally and vertically adjacent squares (diagonally adjacent squares are not neighbors). We say that a square is overfull if it contains more spots than it has neighbors. Thus, the four corner squares are overfull when they have more than two spots; other squares on the edge are overfull with more than three spots; and all others are overfull with more than four spots.
 
 There are two players, whom we'll call Red and Blue. The players each move in turn, with Red going first. A move consists of adding one spot on any square that does not have the opponent's color (so Red may add a spot to either a red or white square). A spot placed on any square colors that square with the player's color.
-Move Example Move Example 2
-
-    Figure 1. Example of two moves. The board on the top is the starting position, and the board on the bottom is after red and blue have each made a move.
-
 After the player has moved, we repeat the following steps until no square is overfull or either all squares are red or all blue:
 
     Pick an overfull square.
