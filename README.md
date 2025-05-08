@@ -4,6 +4,10 @@ The KJumpingCube game1 is a two-person board game. It is a pure strategy game, i
 
 **Rules of Jump61**
 
+Run the game with the following command:
+
+    java jump61.Main 
+
 The game board consists of an N×N
 array of squares, where N>1
 
